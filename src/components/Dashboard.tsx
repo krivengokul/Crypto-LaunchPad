@@ -22,7 +22,7 @@ export function Dashboard() {
     <section id="dashboard" className="mx-auto max-w-7xl px-4 sm:px-6">
       <div className="mb-6 flex items-end justify-between">
         <div>
-          <h2 className="font-display text-3xl font-bold tracking-tight">Live CPR Desk</h2>
+          <h2 className="font-display text-3xl font-bold tracking-tight">Live Pivot Bull Desk</h2>
           <p className="mt-1 text-sm text-muted-foreground">
             Daily pivot, top &amp; bottom central, plus R1–R3 / S1–S3 — recalculated from yesterday's UTC OHLC.
           </p>

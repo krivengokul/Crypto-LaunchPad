@@ -7,9 +7,9 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "CPR.crypto — Central Pivot Range trading desk for crypto" },
+      { title: "Pivot Bull — Central Pivot Range trading desk for crypto" },
       { name: "description", content: "Live Central Pivot Range (CPR) levels for Bitcoin, Ethereum and the top crypto markets. Daily pivot, TC/BC, R1–R3, S1–S3 — auto-refreshed." },
-      { property: "og:title", content: "CPR.crypto — Pivot trading desk" },
+      { property: "og:title", content: "Pivot Bull — Pivot trading desk" },
       { property: "og:description", content: "Real-time CPR levels for the top crypto pairs. Built for intraday traders." },
     ],
   }),

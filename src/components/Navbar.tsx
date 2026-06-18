@@ -10,7 +10,7 @@ export function Navbar() {
             <Activity className="h-5 w-5 text-primary" />
           </div>
           <div className="leading-tight">
-            <div className="font-display text-base font-bold tracking-tight">CPR<span className="text-primary">.crypto</span></div>
+            <div className="font-display text-base font-bold tracking-tight">Pivot Bull</div>
             <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Pivot Trading Desk</div>
           </div>
         </Link>
