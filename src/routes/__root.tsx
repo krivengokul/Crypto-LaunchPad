@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Pivot Bull — CPR Trading Desk for Crypto" },
+      { name: "description", content: "Real-time Central Pivot Range levels for crypto markets. Daily pivot, TC/BC, support and resistance — built for traders." },
+      { property: "og:title", content: "Pivot Bull — CPR Trading Desk for Crypto" },
+      { property: "og:description", content: "Real-time Central Pivot Range levels for crypto markets." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Pivot Bull — CPR Trading Desk for Crypto" },
+      { name: "twitter:description", content: "Real-time Central Pivot Range levels for crypto markets." },
     ],
     links: [
       {
