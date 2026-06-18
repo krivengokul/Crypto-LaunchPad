@@ -5,9 +5,9 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — CPR.crypto" },
-      { name: "description", content: "CPR.crypto is a pivot-based trading desk for crypto markets, built for traders who want clarity over noise." },
-      { property: "og:title", content: "About CPR.crypto" },
+      { title: "About — Pivot Bull" },
+      { name: "description", content: "Pivot Bull is a pivot-based trading desk for crypto markets, built for traders who want clarity over noise." },
+      { property: "og:title", content: "About Pivot Bull" },
       { property: "og:description", content: "A pivot-based crypto trading desk." },
     ],
   }),
@@ -21,7 +21,7 @@ function AboutPage() {
       <main className="mx-auto max-w-3xl px-4 py-20 sm:px-6">
         <h1 className="font-display text-4xl font-bold tracking-tight">About</h1>
         <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-          CPR.crypto is a focused trading dashboard. No noise, no influencers — just the
+          Pivot Bull is a focused trading dashboard. No noise, no influencers — just the
           numbers professional pivot traders have used for decades, ported to the 24/7
           crypto market.
         </p>

@@ -5,9 +5,9 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/strategy")({
   head: () => ({
     meta: [
-      { title: "CPR Strategy — How to trade Central Pivot Range" },
+      { title: "Pivot Bull Strategy — How to trade Central Pivot Range" },
       { name: "description", content: "A practical guide to trading the Central Pivot Range: narrow vs wide CPR, virgin CPR, breakout and rejection setups." },
-      { property: "og:title", content: "CPR Strategy Guide" },
+      { property: "og:title", content: "Pivot Bull Strategy Guide" },
       { property: "og:description", content: "How to read and trade Central Pivot Range setups on crypto." },
     ],
   }),
@@ -42,7 +42,7 @@ function StrategyPage() {
       <Navbar />
       <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
-          The <span className="text-primary">CPR</span> Strategy Guide
+          The <span className="text-primary">Pivot Bull</span> Strategy Guide
         </h1>
         <p className="mt-3 text-muted-foreground">
           Everything you need to read pivot ranges on crypto charts — written for active traders.

@@ -16,7 +16,7 @@ export function Hero() {
             precision.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            CPR.crypto turns yesterday's price action into actionable pivot zones —
+            Pivot Bull turns yesterday's price action into actionable pivot zones —
             so you know exactly where to enter, where to exit, and where the market is
             most likely to react.
           </p>
@@ -25,7 +25,7 @@ export function Hero() {
               href="#dashboard"
               className="rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_0_40px_-10px_oklch(0.78_0.17_75/0.8)] transition hover:brightness-110"
             >
-              Open the CPR desk →
+              Open the Pivot Bull desk →
             </a>
             <a
               href="/strategy"
@@ -38,7 +38,7 @@ export function Hero() {
 
         <div className="mx-auto mt-16 grid max-w-5xl gap-4 md:grid-cols-3">
           {[
-            { icon: Target, title: "Narrow CPR alerts", desc: "Spot days primed for trending breakouts before the move." },
+            { icon: Target, title: "Narrow Pivot alerts", desc: "Spot days primed for trending breakouts before the move." },
             { icon: TrendingUp, title: "Multi-timeframe levels", desc: "Daily, weekly &amp; monthly pivots stacked on every chart." },
             { icon: Zap, title: "Real-time refresh", desc: "Pulls 24h OHLC across the top crypto markets — automatically." },
           ].map((f) => (

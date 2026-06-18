@@ -3,7 +3,7 @@ export function Footer() {
     <footer className="mt-24 border-t border-border/60">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-3">
         <div>
-          <div className="font-display text-lg font-bold">CPR<span className="text-primary">.crypto</span></div>
+          <div className="font-display text-lg font-bold">Pivot Bull</div>
           <p className="mt-2 max-w-sm text-sm text-muted-foreground">
             Real-time Central Pivot Range levels for the top crypto markets. Built for intraday and swing traders.
           </p>
@@ -24,7 +24,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border/60 py-4 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} CPR.crypto — built for traders.
+        © {new Date().getFullYear()} Pivot Bull — built for traders.
       </div>
     </footer>
   );
